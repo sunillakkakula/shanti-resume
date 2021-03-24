@@ -1,7 +1,6 @@
-# [theFront - Multipurpose Template + UI Kit](https://thefront.maccarianagency.com/)
+# [Shanti - Resume using React JS + MUI]
 
-Material-UI & ReactJS based Landing Pages Kit made with [Material UI's](https://material-ui.com/?ref=maccarian-agency) components, [React](https://reactjs.org/?ref=maccarian-agency). It supports [create-react-app](https://facebook.github.io/create-react-app/?ref=maccarian-agency) build-tools (react-scripts), [NextJS](https://nextjs.org/?ref=maccarian-agency), [GatsbyJS](https://www.gatsbyjs.com/?ref=maccarian-agency) and Typescript to boost your app development process!
-A professional React Kit that comes with plenty of ready-to-use Material-UI components that will help you to build faster & beautiful fontend pages. Each component is fully customizable, responsive and easy to integrate.
+Material-UI & ReactJS based Landing Pages Kit made with [Material UI's](https://material-ui.com/?ref=maccarian-agency) components, [React](https://reactjs.org/?ref=maccarian-agency). 
 
 ## Built with
 
