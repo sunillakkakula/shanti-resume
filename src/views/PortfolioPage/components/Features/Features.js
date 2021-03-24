@@ -34,13 +34,19 @@ const Features = props => {
   return (
     <div className={className} {...rest}>
       <Grid container className={classes.grid}>
+        <Grid item xs={12} md={6} data-aos="fade-up">
+          {/* <Image
+            src="https://assets.maccarianagency.com/the-front/photos/careers/team.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/careers/team@2x.png 2x"
+          /> */}
+        </Grid>
         <Grid item container alignItems="center" xs={12} md={6}>
           <Section>
             <>
               <SectionHeader
-                title="Worked for 7 years in Financial Services domain experience working in Information Technology for Mutual Fund Services and Asset Management Business domains at LeggMason Inc, Baltimore, US."
+                title="Full Stack Azure certified Developer having 7 years experience in Java 1.8, React JS, Spring Boot and Node JS ."
                 subtitle=""
-                align="center"
+                align="left"
                 data-aos="fade-up"
                 titleProps={{
                   className: classes.textWhite,
@@ -54,7 +60,7 @@ const Features = props => {
                   <ListItem disableGutters key={index} data-aos="fade-up">
                     <ListItemAvatar>
                       <Avatar
-                        src="/assets/images/illustrations/check-icon-yellow.svg"
+                        src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
                         className={classes.checkBox}
                       />
                     </ListItemAvatar>

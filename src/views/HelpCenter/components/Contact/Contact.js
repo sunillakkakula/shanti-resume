@@ -91,8 +91,8 @@ const Contact = props => {
         >
           <ListItemAvatar>
             <Avatar
-              src="/assets/images/illustrations/contact-icon-phone.png"
-              srcSet="/assets/images/illustrations/contact-icon-phone@2x.png 2x"
+              src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone.png"
+              srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone@2x.png 2x"
               className={classes.icon}
             />
           </ListItemAvatar>
@@ -118,8 +118,8 @@ const Contact = props => {
         >
           <ListItemAvatar>
             <Avatar
-              src="/assets/images/illustrations/contact-icon-mail.png"
-              srcSet="/assets/images/illustrations/contact-icon-mail@2x.png 2x"
+              src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail.png"
+              srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail@2x.png 2x"
               className={classes.icon}
             />
           </ListItemAvatar>
@@ -144,8 +144,8 @@ const Contact = props => {
         >
           <ListItemAvatar className={classes.listItemAvatar}>
             <Avatar
-              src="/assets/images/illustrations/contact-icon-pin.png"
-              srcSet="/assets/images/illustrations/contact-icon-pin@2x.png 2x"
+              src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin.png"
+              srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin@2x.png 2x"
               className={classes.icon}
             />
           </ListItemAvatar>

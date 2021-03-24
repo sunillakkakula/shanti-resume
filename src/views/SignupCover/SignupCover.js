@@ -52,7 +52,7 @@ const SignupCover = () => {
         }
         rightSide={
           <Image
-            src="/assets/images/photos/account/cover-2.png"
+            src="https://assets.maccarianagency.com/the-front/photos/account/cover-2.png"
             className={classes.image}
             lazy={false}
           />

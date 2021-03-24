@@ -46,7 +46,7 @@ const Integrations = props => {
             </Grid>
             <Grid item xs={12} md={6} data-aos="fade-up">
               <Image
-                src="/assets/images/illustrations/progressive-app.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/progressive-app.svg"
                 alt="Integrations"
               />
             </Grid>

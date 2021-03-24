@@ -3,11 +3,9 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
-
 import { Icon } from 'components/atoms';
-import theme from 'theme';
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'inline-flex',
     flexWrap: 'nowrap',

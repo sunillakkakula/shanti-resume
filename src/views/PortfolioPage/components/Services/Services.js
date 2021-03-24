@@ -10,8 +10,8 @@ const Services = props => {
   return (
     <div className={className} data-aos="fade-up" {...rest}>
       <SectionHeader
-        title="What I do"
-        subtitle="Full Stack Developer having 7 years experience in Java 1.8, React JS, Spring Boot and Node JS .Also a certified Microsoft Certified Azure Developer Associate. Worked for 7 years in Financial Services domain experience working in Information Technology for Mutual Fund Services and Asset Management Business domains at LeggMason Inc, Baltimore, US."
+        title="What we do"
+        subtitle="We are a small agency of talented designers & developers. Unlike teams from big agencies, we will treat your project as ours. We will walk you through our smooth and simple process."
         subtitleProps={{
           variant: 'body1',
           color: 'textPrimary',
@@ -44,6 +44,11 @@ const Services = props => {
             />
           </Grid>
         ))}
+        <Grid item container xs={12} justify="center">
+          <Button variant="contained" size="large" color="primary">
+            hire us
+          </Button>
+        </Grid>
       </Grid>
     </div>
   );

@@ -93,35 +93,35 @@ export const pricings = [
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 
 export const articles = [
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'Increasing Prosperity With Positive Thinking',
     author: 'By Maria Stone',
@@ -129,8 +129,8 @@ export const articles = [
   },
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'Motivation Is The First Step To Success',
     author: 'By Georg Smith',
@@ -138,8 +138,8 @@ export const articles = [
   },
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery3.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
     },
     title: 'Success Steps For Your Personal Or Business Life',
     author: 'By Alex Nesi',
@@ -147,8 +147,8 @@ export const articles = [
   },
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'Increasing Prosperity With Positive Thinking',
     author: 'By Maria Stone',
@@ -156,8 +156,8 @@ export const articles = [
   },
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'Motivation Is The First Step To Success',
     author: 'By Georg Smith',
@@ -165,8 +165,8 @@ export const articles = [
   },
   {
     cover: {
-      src: '/assets/images/photos/expo-gallery/gallery3.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
     },
     title: 'Success Steps For Your Personal Or Business Life',
     author: 'By Alex Nesi',

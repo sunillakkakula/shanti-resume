@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
     height: '100%',
-    background: 'url(/assets/images/photos/rental/footer-bg.jpg) no-repeat center',
+    background: 'url(https://assets.maccarianagency.com/the-front/photos/rental/footer-bg.jpg) no-repeat center',
     backgroundSize: 'cover',
   },
   section: {

@@ -46,8 +46,8 @@ const FeaturedProducts = props => {
         </Grid>
       </Grid>
       <Image
-        src="/assets/images/photos/ecommerce/headphone-cover.png"
-        srcSet="/assets/images/photos/ecommerce/headphone-cover@2x.png 2x"
+        src="https://assets.maccarianagency.com/the-front/photos/ecommerce/headphone-cover.png"
+        srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/headphone-cover@2x.png 2x"
         alt="Headphones"
         className={classes.image}
         data-aos={'fade-up'}

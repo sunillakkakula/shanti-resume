@@ -28,7 +28,7 @@ const Hero = props => {
   return (
     <div className={className} data-aos="fade-up" {...rest}>
       <HeroBackground
-        backgroundImg="/assets/images/illustrations/cities.jpg"
+        backgroundImg="https://assets.maccarianagency.com/the-front/illustrations/cities.jpg"
         backgroundColor="white"
         backgroundPosition="bottom center"
         contentSectionClassName={classes.noPadding}

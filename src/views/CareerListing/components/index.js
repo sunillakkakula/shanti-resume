@@ -7,4 +7,4 @@ export { default as Jobs } from './Jobs';
 export { default as Placements } from './Placements';
 export { default as Companies } from './Companies';
 export { default as Application } from './Application';
-export { default as Faq } from './ProfessionalExperience';
+export { default as Faq } from './Faq';

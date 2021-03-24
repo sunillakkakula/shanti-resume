@@ -106,8 +106,8 @@ const About = props => {
               <ListItem disableGutters>
                 <ListItemAvatar className={classes.listItemAvatar}>
                   <Avatar
-                    src="/assets/images/photos/people/jack-smith.jpg"
-                    srcSet="/assets/images/photos/people/jack-smith@2x.jpg 2x"
+                    src="https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg"
+                    srcSet="https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x"
                     alt="Jack Smith"
                     className={classes.avatar}
                   />

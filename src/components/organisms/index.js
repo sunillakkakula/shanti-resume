@@ -19,3 +19,4 @@ export { default as CardCategoryLink } from './CardCategoryLink';
 export { default as HeroSimpleBackground } from './HeroSimpleBackground';
 export { default as CardPricingStandard } from './CardPricingStandard';
 export { default as Parallax } from './Parallax';
+export { default as ContactForm } from './ContactForm';

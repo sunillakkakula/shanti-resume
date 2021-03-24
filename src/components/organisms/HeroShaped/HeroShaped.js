@@ -23,9 +23,11 @@ const useStyles = makeStyles(theme => ({
     },
   },
   heroLeftSide: {
-    padding: theme.spacing(3, 2),
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.down('sm')]: {
       padding: theme.spacing(3, 8),
+    },
+    [theme.breakpoints.down('xs')]: {
+      padding: theme.spacing(3, 2),
     },
   },
   heroRightSide: {

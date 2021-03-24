@@ -10,11 +10,7 @@ import {
   Accordion as MuiAccordion,
   AccordionSummary as MuiAccordionSummary,
   AccordionDetails as MuiAccordionDetails,
-  ListItem,
-  ListItemAvatar,
-  Avatar,
 } from '@material-ui/core';
-import { List } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import { LearnMoreLink } from 'components/atoms';
@@ -110,15 +106,22 @@ const Accordion = props => {
                   {...textProps}
                 >
                   {item.text}
-                  {/* <ListItemAvatar>
-                    <Avatar
-                      src="/assets/images/illustrations/check-icon-yellow.svg"
-                      className={classes.checkBox}
-                    />
-                  </ListItemAvatar>
-                  {item.subtitle} */}
                 </Typography>
               </Grid>
+              {item.link && (
+                <Grid
+                  item
+                  xs={12}
+                  className="accordion__collapsable-link-wrapper"
+                >
+                  <LearnMoreLink
+                    title={item.link}
+                    variant="body1"
+                    className="accordion__collapsable-link"
+                    {...linkProps}
+                  />
+                </Grid>
+              )}
             </Grid>
           </MuiAccordionDetails>
         </MuiAccordion>

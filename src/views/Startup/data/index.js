@@ -1,27 +1,27 @@
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 
@@ -96,28 +96,28 @@ export const work = [
     title: 'Your Brand Platform',
     description:
       'Monetize your website and manage all guest interactions with your own brand, logo and domains.',
-    illustration: '/assets/images/illustrations/brand-platform.svg',
+    illustration: 'https://assets.maccarianagency.com/the-front/illustrations/brand-platform.svg',
   },
   {
     title: 'Mobile Compatible Platform',
     description:
       'Introduce your brand-new mobile friendly website to your customers. Seamlessly integrates with WiFi hardware and marketing automation software.',
-    illustration: '/assets/images/illustrations/mobiles.svg',
+    illustration: 'https://assets.maccarianagency.com/the-front/illustrations/mobiles.svg',
   },
   {
     label: 'CLIENT PORTAL ACCESS',
     title: 'Simple Customer Dashboards',
     description:
       'Give sub-users access to a simplified dashboard with limited permission levels to offer remote management and real-time analytics.',
-    illustration: '/assets/images/illustrations/dashboard.svg',
+    illustration: 'https://assets.maccarianagency.com/the-front/illustrations/dashboard.svg',
   },
 ];
 
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -126,8 +126,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -136,8 +136,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',

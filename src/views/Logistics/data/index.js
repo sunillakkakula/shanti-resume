@@ -48,19 +48,19 @@ export const team = [
 
 export const integrations = [
   {
-    logo: '/assets/images/logos/slack.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     name: 'Slack',
     title:
       "Sync your team's work and activity to share automatically in a channel with a simple plugin.",
   },
   {
-    logo: '/assets/images/logos/mailchimp.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/mailchimp.svg',
     name: 'Mailchimp',
     title:
       'Communicate important messages to your users through TheFront using Mailchimp as the delivery service.',
   },
   {
-    logo: '/assets/images/logos/dropbox.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dropbox.svg',
     name: 'Dropbox',
     title:
       'Sync any file store to Dropbox for automated sharing with people outside the company.',
@@ -70,8 +70,8 @@ export const integrations = [
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -80,8 +80,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -111,8 +111,8 @@ export const jobs = [
 export const news = [
   {
     cover: {
-      src: '/assets/images/photos/logistics/news1.jpg',
-      srcSet: '/assets/images/photos/logistics/news1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/logistics/news1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/logistics/news1@2x.jpg 2x',
     },
     tag: 'delivery',
     title: 'Optimize the schedules of thousands of trains in minutes.',
@@ -120,8 +120,8 @@ export const news = [
   },
   {
     cover: {
-      src: '/assets/images/photos/logistics/news2.jpg',
-      srcSet: '/assets/images/photos/logistics/news2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/logistics/news2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/logistics/news2@2x.jpg 2x',
     },
     tag: 'Main stream',
     title: 'Optimize the schedules of thousands of trains in minutes.',
@@ -129,8 +129,8 @@ export const news = [
   },
   {
     cover: {
-      src: '/assets/images/photos/logistics/news3.jpg',
-      srcSet: '/assets/images/photos/logistics/news3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/logistics/news3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/logistics/news3@2x.jpg 2x',
     },
     tag: 'Trucks',
     title: 'Optimize the schedules of thousands of trains in minutes.',

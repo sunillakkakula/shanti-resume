@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
   iconCover: {
     width: 60,
     height: 60,
-    background: 'url(/assets/images/illustrations/bgicon.svg) no-repeat center center',
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/bgicon.svg) no-repeat center center',
     backgroundSize: 'contain',
     display: 'flex',
     justifyContent: 'center',

@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: 0,
   },
   featuresSection: {
-    background: 'url(/assets/images/illustrations/patterns-bg.svg) no-repeat center',
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/patterns-bg.svg) no-repeat center',
     backgroundSize: 'contain',
   },
   integrationsSection: {

@@ -25,7 +25,7 @@ const Hero = props => {
 
   return (
     <div className={className} {...rest}>
-      <HeroBackground backgroundImg="/assets/images/photos/expo-gallery/gallery3@2x.jpg">
+      <HeroBackground backgroundImg="https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg">
         <Grid container spacing={4}>
           <Grid item xs={12}>
             <Typography

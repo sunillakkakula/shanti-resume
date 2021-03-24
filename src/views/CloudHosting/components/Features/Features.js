@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   featureItems: {
     width: '100%',
     height: '100%',
-    background: 'url(/assets/images/illustrations/bg-shapes.svg) no-repeat top center',
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/bg-shapes.svg) no-repeat top center',
     backgroundSize: 'contain',
 
     [theme.breakpoints.up('md')]: {
@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
   iconCover: {
     width: 60,
     height: 60,
-    background: 'url(/assets/images/illustrations/bgicon.svg) no-repeat center center',
+    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/bgicon.svg) no-repeat center center',
     backgroundSize: 'contain',
     display: 'flex',
     justifyContent: 'center',
@@ -141,7 +141,7 @@ const Features = props => {
                   <ListItem disableGutters>
                     <ListItemAvatar>
                       <Avatar
-                        src="/assets/images/illustrations/check-icon-yellow.svg"
+                        src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
                         className={classes.checkBox}
                       />
                     </ListItemAvatar>

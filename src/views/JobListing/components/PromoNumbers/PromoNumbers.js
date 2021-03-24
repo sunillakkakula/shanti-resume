@@ -36,7 +36,7 @@ const PromoNumbers = props => {
             md={2}
           >
             <Image
-              src="/assets/images/illustrations/high.svg"
+              src="https://assets.maccarianagency.com/the-front/illustrations/high.svg"
               className={classes.image}
             />
           </Grid>

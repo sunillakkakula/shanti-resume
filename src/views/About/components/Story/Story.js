@@ -60,7 +60,7 @@ const Story = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/assets/images/illustrations/working-on-sofa.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/working-on-sofa.svg"
             alt="Our story"
             className={classes.image}
           />

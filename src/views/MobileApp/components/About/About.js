@@ -86,13 +86,13 @@ const About = props => {
             subtitle="Travelling with our app is easy. Join the biggest community of travellers."
             ctaGroup={[
               <Image
-                src="/assets/images/mobile-addons/app-store.png"
+                src="https://assets.maccarianagency.com/the-front/mobile-addons/app-store.png"
                 alt="Get in on App Store"
                 className={classes.appStore}
                 lazy={false}
               />,
               <Image
-                src="/assets/images/mobile-addons/play-store.png"
+                src="https://assets.maccarianagency.com/the-front/mobile-addons/play-store.png"
                 alt="Get in on Play Market"
                 className={classes.googlePlayBtn}
                 lazy={false}
@@ -107,7 +107,7 @@ const About = props => {
         rightSide={
           <div className={classes.cover}>
             <Image
-              src="/assets/images/illustrations/city-driver.svg"
+              src="https://assets.maccarianagency.com/the-front/illustrations/city-driver.svg"
               alt="..."
               className={classes.coverImg}
               data-aos="fade-up"
@@ -123,7 +123,7 @@ const About = props => {
               <CardBase className={classes.cardBase} withShadow liftUp>
                 <>
                 <Image
-                  src="/assets/images/illustrations/travelers.svg"
+                  src="https://assets.maccarianagency.com/the-front/illustrations/travelers.svg"
                   alt="..."
                   lazy={false}
                 />
@@ -157,13 +157,13 @@ const About = props => {
               subtitle="Don't listen to what they say go and see. Travelling with our app is easy. Join the biggest community of travellers."
               ctaGroup={[
                 <Image
-                  src="/assets/images/mobile-addons/app-store.png"
+                  src="https://assets.maccarianagency.com/the-front/mobile-addons/app-store.png"
                   alt="Get in on App Store"
                   className={classes.appStore}
                   lazy={false}
                 />,
                 <Image
-                  src="/assets/images/mobile-addons/play-store.png"
+                  src="https://assets.maccarianagency.com/the-front/mobile-addons/play-store.png"
                   alt="Get in on Play Market"
                   className={classes.googlePlayBtn}
                   lazy={false}

@@ -43,7 +43,7 @@ const Features = props => {
           data-aos="fade-up"
         >
           <Image
-            src="/assets/images/illustrations/dashboard-screenshot1.jpg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-screenshot1.jpg"
             alt="..."
             className={classes.coverImage}
             data-aos="flip-left"

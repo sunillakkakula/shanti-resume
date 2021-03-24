@@ -35,7 +35,7 @@ const MobileApp = props => {
     <div className={className} {...rest}>
       <Grid container spacing={isMd ? 4 : 2}>
         <Grid item container justify="center" xs={12} md={6} data-aos="fade-up">
-          <Image src="/assets/images/illustrations/dashboard-extended.svg" />
+          <Image src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-extended.svg" />
         </Grid>
         <Grid item xs={12} md={6} data-aos="fade-up">
           <Grid
@@ -57,7 +57,7 @@ const MobileApp = props => {
                   <ListItem disableGutters>
                     <ListItemAvatar className={classes.listItemAvatar}>
                       <Avatar
-                        src="/assets/images/illustrations/check-icon-yellow.svg"
+                        src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
                         className={classes.checkBox}
                       />
                     </ListItemAvatar>

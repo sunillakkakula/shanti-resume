@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     height: '100%',
     width: '100%',
     background:
-      'url(/assets/images/photos/people/designer.png) no-repeat right bottom',
+      'url(https://assets.maccarianagency.com/the-front/photos/people/designer.png) no-repeat right bottom',
     backgroundSize: 'contain',
     display: 'none',
     [theme.breakpoints.up('sm')]: {

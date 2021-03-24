@@ -22,7 +22,6 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'flex-start',
   },
   navLink: {
-    fontWeight: 300,
     '&:hover': {
       color: theme.palette.primary.dark,
     },
@@ -182,22 +181,17 @@ const SidebarNav = props => {
         <AccountPages />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Divider className={classes.divider} />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography
-          variant="h6"
-          color="primary"
+        <Button
+          variant="outlined"
+          fullWidth
           component="a"
-          target="blank"
-          href="https://thefront-styleguide.maccarianagency.com/"
+          href="/documentation"
         >
           Documentation
-        </Typography>
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          size="large"
           variant="contained"
           color="primary"
           fullWidth

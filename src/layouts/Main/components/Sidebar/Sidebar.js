@@ -9,7 +9,7 @@ import { SidebarNav } from './components';
 const useStyles = makeStyles(theme => ({
   drawer: {
     width: '100%',
-    maxWidth: 400,
+    maxWidth: 325,
   },
   root: {
     height: '100%',

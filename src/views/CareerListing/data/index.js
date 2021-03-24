@@ -3,27 +3,27 @@ import { colors } from '@material-ui/core';
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 
@@ -86,7 +86,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Milan, Italy',
     date: '3 days ago',
-    companyLogo: '/assets/images/logos/slack.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     companyName: 'Slack',
   },
   {
@@ -96,7 +96,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Rome, Italy',
     date: 'Just now',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
   {
@@ -106,7 +106,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Yerevan, Armenia',
     date: '1 week ago',
-    companyLogo: '/assets/images/logos/atlassian.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/atlassian.svg',
     companyName: 'Atlassian',
   },
   {
@@ -116,7 +116,7 @@ export const jobs = [
     type: 'Part time',
     location: 'Paris, France',
     date: '2 days ago',
-    companyLogo: '/assets/images/logos/dropbox.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/dropbox.svg',
     companyName: 'Dropbox',
   },
   {
@@ -126,7 +126,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Yerevan, Armenia',
     date: '1 month ago',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
   {
@@ -136,7 +136,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Milan, Italy',
     date: '4 days ago',
-    companyLogo: '/assets/images/logos/google-drive.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-drive.svg',
     companyName: 'Google Drive',
   },
   {
@@ -146,7 +146,7 @@ export const jobs = [
     type: 'Part Time',
     location: 'Paris, France',
     date: '5 days ago',
-    companyLogo: '/assets/images/logos/mailchimp.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/mailchimp.svg',
     companyName: 'Mail Chimp',
   },
   {
@@ -156,7 +156,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Milan, Italy',
     date: '2 weeks ago',
-    companyLogo: '/assets/images/logos/slack.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     companyName: 'Slack',
   },
   {
@@ -166,7 +166,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Rome, Italy',
     date: 'Just now',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
 ];
@@ -176,7 +176,7 @@ export const companies = [
     title: 'Photography',
     location: 'Yerevan, Armenia',
     jobs: '3 jobs',
-    companyLogo: '/assets/images/logos/atlassian.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/atlassian.svg',
     companyName: 'Atlassian',
     subtitle:
       'Keep your entire team in sync with development and easily manage tasks, goals, and deadlines.',
@@ -185,7 +185,7 @@ export const companies = [
     title: 'Video Creating',
     location: 'Paris, France',
     jobs: '4 jobs',
-    companyLogo: '/assets/images/logos/dropbox.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/dropbox.svg',
     companyName: 'Dropbox',
     subtitle:
       'Sync any file store to Dropbox for automated sharing with people outside the company.',
@@ -194,7 +194,7 @@ export const companies = [
     title: 'Health & Fitness',
     location: 'Yerevan, Armenia',
     jobs: '10 jobs',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
     subtitle:
       'Easily manage and edit any Adwords campaign inline to improve ROI with constant review.',
@@ -203,7 +203,7 @@ export const companies = [
     title: 'Marketing',
     location: 'Milan, Italy',
     jobs: '3 jobs',
-    companyLogo: '/assets/images/logos/google-drive.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-drive.svg',
     companyName: 'Google Drive',
     subtitle:
       'Sync any file store to Google Drive for automated sharing with people outside the company.',
@@ -212,7 +212,7 @@ export const companies = [
     title: 'Finances & Sales',
     location: 'Paris, France',
     jobs: '2 jobs',
-    companyLogo: '/assets/images/logos/mailchimp.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/mailchimp.svg',
     companyName: 'Mail Chimp',
     subtitle:
       'Communicate important messages to your users through TheFront using Mailchimp as the delivery service.',
@@ -221,7 +221,7 @@ export const companies = [
     title: 'Graphic Design',
     location: 'Milan, Italy',
     jobs: '8 jobs',
-    companyLogo: '/assets/images/logos/slack.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     companyName: 'Slack',
     subtitle:
       "Sync your team's work and activity to share automatically in a channel with a simple plugin.",

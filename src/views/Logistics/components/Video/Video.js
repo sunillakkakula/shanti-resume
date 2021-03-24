@@ -23,7 +23,7 @@ const Video = props => {
   return (
     <div className={className} {...rest}>
       <HeroBackground
-        backgroundImg="/assets/images/photos/logistics/cover@2x.png"
+        backgroundImg="https://assets.maccarianagency.com/the-front/photos/logistics/cover@2x.png"
         backgroundPosition="center center"
         backgroundColor={'#11092d'}
       >
@@ -40,7 +40,7 @@ const Video = props => {
             data-aos="fade-up"
           />
           <HeroBackground
-            backgroundImg="/assets/images/photos/logistics/cover@2x.png"
+            backgroundImg="https://assets.maccarianagency.com/the-front/photos/logistics/cover@2x.png"
             backgroundPosition="center center"
             disbaleCoverOpacity
             className={classes.video}

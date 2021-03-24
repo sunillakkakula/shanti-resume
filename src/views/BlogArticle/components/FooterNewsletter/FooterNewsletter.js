@@ -53,7 +53,7 @@ const FooterNewsletter = props => {
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} container>
           <Image
-            src="/assets/images/illustrations/relax-in-sofa.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/relax-in-sofa.svg"
             className={classes.image}
           />
         </Grid>

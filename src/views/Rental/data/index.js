@@ -19,7 +19,7 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src: '/assets/images/photos/rental/1.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -31,7 +31,7 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/2.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -43,7 +43,7 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/3.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -55,7 +55,7 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/4.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -67,7 +67,7 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/5.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -79,7 +79,7 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/6.jpg',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -94,8 +94,8 @@ export const featuredProperties = [
 export const places = [
   {
     image: {
-      src: '/assets/images/photos/rental/los-angeles.jpg',
-      srcSet: '/assets/images/photos/rental/los-angeles@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles@2x.jpg 2x',
     },
     location: 'Los Angeles',
     properties: 24,
@@ -103,8 +103,8 @@ export const places = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/san-francisco.jpg',
-      srcSet: '/assets/images/photos/rental/san-francisco@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco@2x.jpg 2x',
     },
     location: 'San Francisco',
     properties: 19,
@@ -112,8 +112,8 @@ export const places = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/seattle.jpg',
-      srcSet: '/assets/images/photos/rental/seattle@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/seattle.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/seattle@2x.jpg 2x',
     },
     location: 'Seattle',
     properties: 32,
@@ -121,8 +121,8 @@ export const places = [
   },
   {
     image: {
-      src: '/assets/images/photos/rental/san-diego.jpg',
-      srcSet: '/assets/images/photos/rental/san-diego@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/san-diego.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/san-diego@2x.jpg 2x',
     },
     location: 'San Diego',
     properties: 15,
@@ -133,8 +133,8 @@ export const places = [
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -143,8 +143,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -153,8 +153,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',
@@ -166,27 +166,27 @@ export const reviews = [
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 

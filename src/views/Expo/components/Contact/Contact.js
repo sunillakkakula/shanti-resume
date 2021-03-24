@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ContactForm } from 'common';
-import { CardBase } from 'components/organisms';
+import { CardBase, ContactForm } from 'components/organisms';
 
 const Contact = props => {
   const { className, ...rest } = props;

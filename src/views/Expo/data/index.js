@@ -59,27 +59,27 @@ export const advantages = [
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 
@@ -89,8 +89,8 @@ export const webinars = [
     description:
       'Add new recurring revenue streams to existing managed WiFi networks.',
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
   },
@@ -99,8 +99,8 @@ export const webinars = [
     description:
       'Add Social WiFi Marketing to your software bundles and suite of services.',
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
   },
@@ -109,8 +109,8 @@ export const webinars = [
     description:
       'Help local business owners generate leads and build customer loyalty.',
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
   },
@@ -119,8 +119,8 @@ export const webinars = [
     description:
       'Upsell Social WiFi as a Service to business Internet subscribers.',
     authorPhoto: {
-      src: '/assets/images/photos/people/kate-segelson.jpg',
-      srcSet: '/assets/images/photos/people/kate-segelson@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
     },
     authorName: 'Kate Segelson',
   },
@@ -129,8 +129,8 @@ export const webinars = [
     description:
       'A lightweight Social WiFi API solution integrate deep into existing platforms.',
     authorPhoto: {
-      src: '/assets/images/photos/people/alex-johnson.jpg',
-      srcSet: '/assets/images/photos/people/alex-johnson@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
     },
     authorName: 'Alex Johnson',
   },
@@ -139,8 +139,8 @@ export const webinars = [
     description:
       'Generate affiliate commissions by referring new reseller partners to us.',
     authorPhoto: {
-      src: '/assets/images/photos/people/valeria-kogan.jpg',
-      srcSet: '/assets/images/photos/people/valeria-kogan@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
     },
     authorName: 'Valeria Kogan',
   },
@@ -149,8 +149,8 @@ export const webinars = [
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -159,8 +159,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -169,8 +169,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',
@@ -182,64 +182,64 @@ export const reviews = [
 export const gallery = [
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 3,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery3.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 2,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery3.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 2,
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,
@@ -249,8 +249,8 @@ export const gallery = [
 export const teasers = [
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'The New Era of Tech Companies',
     subtitle:
@@ -260,8 +260,8 @@ export const teasers = [
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
     title: 'We have top executive & start up here',
     subtitle:

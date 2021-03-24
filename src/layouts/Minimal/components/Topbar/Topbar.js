@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import { Toolbar } from '@material-ui/core';
-
 import { Image } from 'components/atoms';
-import { isLightMode } from 'utils';
 
 const useStyles = makeStyles(theme => ({
   toolbar: {
@@ -31,15 +29,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Topbar = props => {
-  const { className, ...rest } = props;
-
-  const [isLightModeTheme, setLightModeTheme] = useState(false);
-
-  useEffect(() => {
-    setLightModeTheme(isLightMode());
-  }, []);
-
+const Topbar = ({ themeMode, className, ...rest }) => {
   const classes = useStyles();
 
   return (
@@ -48,7 +38,7 @@ const Topbar = props => {
         <a href="/" title="thefront">
           <Image
             className={classes.logoImage}
-            src={isLightModeTheme ? '/assets/images/logos/logo.svg' : '/assets/images/logos/logo-negative.svg'}
+            src={themeMode === 'light' ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg' : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'}
             alt="thefront"
             lazy={false}
           />
@@ -60,6 +50,7 @@ const Topbar = props => {
 
 Topbar.propTypes = {
   className: PropTypes.string,
+  themeMode: PropTypes.string.isRequired,
 };
 
 export default Topbar;

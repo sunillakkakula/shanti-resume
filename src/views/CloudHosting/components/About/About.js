@@ -103,8 +103,8 @@ const About = props => {
                 <ListItem disableGutters>
                   <ListItemAvatar>
                     <Avatar
-                      src="/assets/images/photos/people/jack-smith.jpg"
-                      srcSet="/assets/images/photos/people/jack-smith@2x.jpg 2x"
+                      src="https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg"
+                      srcSet="https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x"
                       alt="Jack Smith"
                     />
                   </ListItemAvatar>
@@ -119,7 +119,7 @@ const About = props => {
           </div>
         </Section>
         <Image
-          src="/assets/images/illustrations/macbook-dashboard.png"
+          src="https://assets.maccarianagency.com/the-front/illustrations/macbook-dashboard.png"
           className={classes.image}
           data-aos="fade-up"
           lazy={false}

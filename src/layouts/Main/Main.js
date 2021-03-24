@@ -6,14 +6,13 @@ import {
   useMediaQuery,
   Divider,
   Toolbar,
-  ListItemText,
+  ListItem,
   ListItemAvatar,
   Avatar,
-  ListItem,
-  List,
+  ListItemText,
 } from '@material-ui/core';
+import { Topbar, Footer, Sidebar } from './components';
 import { SectionHeader } from 'components/molecules';
-// import { Topbar, Footer, Sidebar, TopbarLSK } from './components';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,9 +20,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Main = props => {
-  const { children } = props;
-
+const Main = ({ children, themeToggler, themeMode }) => {
   const classes = useStyles();
 
   const theme = useTheme();
@@ -81,6 +78,10 @@ const Main = props => {
   //       web: {
   //         groupTitle: 'Web',
   //         pages: [
+  //           {
+  //             title: 'Marketing',
+  //             href: '/',
+  //           },
   //           {
   //             title: 'Overview',
   //             href: '/home',
@@ -336,6 +337,7 @@ const Main = props => {
         [classes.root]: true,
       })}
     >
+      {/* <Topbar themeMode={themeMode} themeToggler={themeToggler} /> */}
       <Toolbar disableGutters className={classes.toolbar}>
         <SectionHeader
           title="Shanti"
@@ -349,7 +351,6 @@ const Main = props => {
             className: classes.textWhite,
           }}
         />
-        {/* <List disablePadding> */}
         <ListItem disableGutters data-aos="fade-up">
           <ListItemAvatar>
             <Avatar
@@ -392,11 +393,7 @@ const Main = props => {
             }}
           />
         </ListItem>
-        {/* </List> */}
-        {/* </SectionHeader> */}
       </Toolbar>
-
-      <Divider />
 
       <main>
         <Divider />
@@ -408,6 +405,8 @@ const Main = props => {
 
 Main.propTypes = {
   children: PropTypes.node,
+  themeToggler: PropTypes.func.isRequired,
+  themeMode: PropTypes.string.isRequired,
 };
 
 export default Main;

@@ -49,7 +49,7 @@ const Community = props => {
         data-aos="fade-up"
       />
       <HeroSimpleBackground
-        backgroundImage="/assets/images/illustrations/map.png"
+        backgroundImage="https://assets.maccarianagency.com/the-front/illustrations/map.png"
         backgroundSize="contain"
       >
         <Grid container spacing={0} className={classes.grid} data-aos="fade-up">

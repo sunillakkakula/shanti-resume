@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     height: '100%',
     position: 'relative',
-    background: `url(/assets/images/illustrations/contact-cover.svg) no-repeat #3F50B5`,
+    background: `url(https://assets.maccarianagency.com/the-front/illustrations/contact-cover.svg) no-repeat #3F50B5`,
     overflow: 'hidden',
     minHeight: 400,
     [theme.breakpoints.up('md')]: {

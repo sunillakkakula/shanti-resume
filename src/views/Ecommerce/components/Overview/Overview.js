@@ -45,8 +45,8 @@ const Overview = props => {
       <Grid container data-aos="fade-up">
         <Grid item container alignItems="flex-start" xs={12} md={4}>
           <Image
-            src="/assets/images/photos/ecommerce/overview-cover-left.png"
-            srcSet="/assets/images/photos/ecommerce/overview-cover-left@2x.png 2x"
+            src="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-left.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-left@2x.png 2x"
             className={clsx(classes.image, classes.imageLeft)}
             lazy={false}
           />
@@ -82,8 +82,8 @@ const Overview = props => {
         </Grid>
         <Grid item container justify="flex-end" xs={12} md={4}>
           <Image
-            src="/assets/images/photos/ecommerce/overview-cover-right.png"
-            srcSet="/assets/images/photos/ecommerce/overview-cover-right@2x.png 2x"
+            src="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-right.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-right@2x.png 2x"
             className={classes.image}
             lazy={false}
           />

@@ -1,4 +1,5 @@
 export { default as Home } from './Home';
+export { default as IndexView } from './IndexView';
 export { default as Agency } from './Agency';
 export { default as CareerListing } from './CareerListing';
 export { default as CareerListingMinimal } from './CareerListingMinimal';
@@ -41,5 +42,6 @@ export { default as SigninCover } from './SigninCover';
 export { default as SignupSimple } from './SignupSimple';
 export { default as SignupCover } from './SignupCover';
 export { default as Account } from './Account';
+export { default as Documentation } from './Documentation';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';

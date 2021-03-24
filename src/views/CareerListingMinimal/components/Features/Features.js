@@ -14,7 +14,7 @@ import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { Section } from 'components/organisms';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   grid: {
     maxWidth: '100%',
     background: theme.palette.primary.dark,
@@ -38,40 +38,46 @@ const Features = props => {
   return (
     <div className={className} {...rest}>
       <Grid container className={classes.grid}>
+        <Grid item xs={12} md={6} data-aos="fade-up">
+          <Image
+            src="https://assets.maccarianagency.com/the-front/photos/careers/team.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/careers/team@2x.png 2x"
+          />
+        </Grid>
         <Grid item container alignItems="center" xs={12} md={6}>
           <Section>
             <>
-              <SectionHeader
-                title="Worked for 7 years in Financial Services domain experience working in Information Technology for Mutual Fund Services and Asset Management Business domains at LeggMason Inc, Baltimore, US."
-                subtitle=""
-                align="left"
-                data-aos="fade-up"
-                titleProps={{
-                  className: clsx(classes.textWhite, classes.title),
-                }}
-                subtitleProps={{
-                  className: classes.textWhite,
-                }}
-              />
-              <List>
-                {data.map((item, index) => (
-                  <ListItem disableGutters key={index} data-aos="fade-up">
-                    <ListItemAvatar>
-                      <Avatar
-                        src="/assets/images/illustrations/check-icon-yellow.svg"
-                        className={classes.checkBox}
-                      />
-                    </ListItemAvatar>
-                    <Typography
-                      variant="body1"
-                      color="textPrimary"
-                      className={classes.textWhite}
-                    >
-                      {item}
-                    </Typography>
-                  </ListItem>
-                ))}
-              </List>
+            <SectionHeader
+              title="Monitor and analyze usage patterns."
+              subtitle="Keep track of what's happening with your data, change permissions, and run reports against your data anywhere in the world."
+              align="left"
+              data-aos="fade-up"
+              titleProps={{
+                className: clsx(classes.textWhite, classes.title),
+              }}
+              subtitleProps={{
+                className: classes.textWhite,
+              }}
+            />
+            <List>
+              {data.map((item, index) => (
+                <ListItem disableGutters key={index} data-aos="fade-up">
+                  <ListItemAvatar>
+                    <Avatar
+                      src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
+                      className={classes.checkBox}
+                    />
+                  </ListItemAvatar>
+                  <Typography
+                    variant="body1"
+                    color="textPrimary"
+                    className={classes.textWhite}
+                  >
+                    {item}
+                  </Typography>
+                </ListItem>
+              ))}
+            </List>
             </>
           </Section>
         </Grid>

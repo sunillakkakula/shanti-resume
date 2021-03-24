@@ -93,7 +93,7 @@ const Hero = props => {
           </div>
         </Section>
         <Image
-          src="/assets/images/illustrations/macbook-dashboard.png"
+          src="https://assets.maccarianagency.com/the-front/illustrations/macbook-dashboard.png"
           className={classes.image}
           data-aos="fade-up"
           lazy={false}

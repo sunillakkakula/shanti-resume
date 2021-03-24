@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
   cardBase: {
     background: theme.palette.secondary.main,
     [theme.breakpoints.up('md')]: {
-      background: `url(/assets/images/illustrations/newsletter-bg.svg) no-repeat 150% 50% ${theme.palette.secondary.main}`,
+      background: `url(https://assets.maccarianagency.com/the-front/illustrations/newsletter-bg.svg) no-repeat 150% 50% ${theme.palette.secondary.main}`,
     },
   },
   textWhite: {

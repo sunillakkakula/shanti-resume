@@ -90,7 +90,7 @@ const VideoSection = props => {
           data-aos={'fade-up'}
         >
           <div className={classes.video}>
-            <Image src="/assets/images/illustrations/dashboard.svg" alt="Dashboard" />
+            <Image src="https://assets.maccarianagency.com/the-front/illustrations/dashboard.svg" alt="Dashboard" />
             <i
               className={clsx(classes.videoPlayButton, 'fas fa-play-circle')}
             />

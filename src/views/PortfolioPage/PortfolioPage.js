@@ -16,7 +16,7 @@ import {
 
 // import { partners, jobCategories, jobs, companies, faq } from './data';
 import { Companies, Faq } from 'views/CareerListing/components';
-import ProfessionalExperience from 'views/CareerListing/components/ProfessionalExperience';
+import ProfessionalExperience from 'views/CareerListing/ProfessionalExperience';
 // import { Contact } from 'views/Agency/components';
 
 const useStyles = makeStyles(theme => ({

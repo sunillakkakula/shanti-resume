@@ -47,13 +47,13 @@ const Download = props => {
         }
         ctaGroup={[
           <Image
-            src="/assets/images/mobile-addons/app-store.png"
+            src="https://assets.maccarianagency.com/the-front/mobile-addons/app-store.png"
             alt="Get in on App Store"
             className={classes.appStore}
             lazy={false}
           />,
           <Image
-            src="/assets/images/mobile-addons/play-store.png"
+            src="https://assets.maccarianagency.com/the-front/mobile-addons/play-store.png"
             alt="Get in on Play Market"
             className={classes.googlePlayBtn}
             lazy={false}

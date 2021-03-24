@@ -24,7 +24,7 @@ const SellProperty = props => {
     <div className={className} {...rest}>
       <Grid container className={classes.grid}>
         <Grid item xs={12} md={6} data-aos="fade-up">
-          <Image src="/assets/images/photos/rental/house-cover.png" lazy={false} />
+          <Image src="https://assets.maccarianagency.com/the-front/photos/rental/house-cover.png" lazy={false} />
         </Grid>
         <Grid item container alignItems="center" xs={12} md={6}>
           <Section>

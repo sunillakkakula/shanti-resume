@@ -74,7 +74,7 @@ const Features = props => {
           data-aos="fade-up"
         >
           <Image
-            src="/assets/images/illustrations/learning.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/learning.svg"
             alt="..."
             className={classes.coverImage}
           />

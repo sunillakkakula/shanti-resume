@@ -1,10 +1,10 @@
 import React from 'react';
 import clsx from 'clsx';
+import { parse } from 'query-string';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, List, ListItem, Grid, Typography } from '@material-ui/core';
 import { SectionAlternate, CardBase } from 'components/organisms';
 import { Hero, General, Security, Notifications, Billing } from './components';
-import { getQueryParams } from 'utils';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -94,7 +94,7 @@ const TabPanel = props => {
 
 const Account = (props = {}) => {
   const classes = useStyles();
-  let pageId = getQueryParams().pid || 'general';
+  let pageId = parse(window.location.search).pid || 'general';
 
   return (
     <div className={classes.root}>

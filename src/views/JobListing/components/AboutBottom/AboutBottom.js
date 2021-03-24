@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     backgroundSize: 'contain',
     backgroundPosition: 'center right',
     [theme.breakpoints.up('md')]: {
-      backgroundImage: 'url(/assets/images/illustrations/bg-remote-working.svg)',
+      backgroundImage: 'url(https://assets.maccarianagency.com/the-front/illustrations/bg-remote-working.svg)',
     },
   },
   textWhite: {

@@ -3,15 +3,13 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
-
 import { Image } from 'components/atoms';
-import { isLightMode } from 'utils';
 
 const useStyles = makeStyles(theme => ({
   imageGrid: {
     padding: '.25rem',
     width: '150%',
-    boxShadow: `0 1.5rem 4rem ${isLightMode() ? 'rgba(22,28,45,.1)' : 'rgba(0,0,0,.3)'}`,
+    boxShadow: '0 1.5rem 4rem rgba(22,28,45,.1)',
     background: theme.palette.background.paper,
     '& img': {
       maxWidth: '100%',

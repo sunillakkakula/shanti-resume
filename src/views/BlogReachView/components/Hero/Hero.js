@@ -108,7 +108,7 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/assets/images/illustrations/mobiles.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/mobiles.svg"
             className={classes.image}
           />
         </Grid>

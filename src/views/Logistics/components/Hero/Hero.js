@@ -10,7 +10,7 @@ import { HeroShaped } from 'components/organisms';
 const useStyles = makeStyles(theme => ({
   root: {
     background:
-      'url(/assets/images/illustrations/patterns-bg.svg) no-repeat left bottom',
+      'url(https://assets.maccarianagency.com/the-front/illustrations/patterns-bg.svg) no-repeat left bottom',
     backgroundSize: 'contain',
     backgroundColor: theme.palette.alternate.main,
   },
@@ -50,8 +50,8 @@ const Hero = props => {
         rightSide={
           <div className={classes.cover}>
             <Image
-              src="/assets/images/photos/logistics/cover.png"
-              srcSet="/assets/images/photos/logistics/cover@2x.png 2x"
+              src="https://assets.maccarianagency.com/the-front/photos/logistics/cover.png"
+              srcSet="https://assets.maccarianagency.com/the-front/photos/logistics/cover@2x.png 2x"
               className={classes.image}
               lazyProps={{
                 width: '100%',

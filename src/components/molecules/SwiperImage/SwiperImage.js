@@ -24,9 +24,9 @@ const useStyles = makeStyles(theme => ({
     right: theme.spacing(2),
     zIndex: 4,
     '& .swiper-button-prev, & .swiper-button-next': {
-      width: theme.spacing(2),
-      height: theme.spacing(2),
-      padding: theme.spacing(1),
+      width: theme.spacing(3),
+      height: theme.spacing(3),
+      padding: theme.spacing(2),
       background: theme.palette.primary.main,
       borderRadius: '100%',
       position: 'relative',

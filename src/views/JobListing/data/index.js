@@ -3,27 +3,27 @@ import { colors } from '@material-ui/core';
 export const partners = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
   {
     name: 'Instagram',
-    logo: '/assets/images/logos/instagram.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
   },
   {
     name: 'Netflix',
-    logo: '/assets/images/logos/netflix.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
   },
   {
     name: 'Pinterest',
-    logo: '/assets/images/logos/pinterest.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
   },
 ];
 
@@ -63,7 +63,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Milan, Italy',
     date: '3 days ago',
-    companyLogo: '/assets/images/logos/slack.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     companyName: 'Slack',
   },
   {
@@ -73,7 +73,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Rome, Italy',
     date: 'Just now',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
   {
@@ -83,7 +83,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Yerevan, Armenia',
     date: '1 week ago',
-    companyLogo: '/assets/images/logos/atlassian.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/atlassian.svg',
     companyName: 'Atlassian',
   },
   {
@@ -93,7 +93,7 @@ export const jobs = [
     type: 'Part time',
     location: 'Paris, France',
     date: '2 days ago',
-    companyLogo: '/assets/images/logos/dropbox.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/dropbox.svg',
     companyName: 'Dropbox',
   },
   {
@@ -103,7 +103,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Yerevan, Armenia',
     date: '1 month ago',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
   {
@@ -113,7 +113,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Milan, Italy',
     date: '4 days ago',
-    companyLogo: '/assets/images/logos/google-drive.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-drive.svg',
     companyName: 'Google Drive',
   },
   {
@@ -123,7 +123,7 @@ export const jobs = [
     type: 'Part Time',
     location: 'Paris, France',
     date: '5 days ago',
-    companyLogo: '/assets/images/logos/mailchimp.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/mailchimp.svg',
     companyName: 'Mail Chimp',
   },
   {
@@ -133,7 +133,7 @@ export const jobs = [
     type: 'Remote',
     location: 'Milan, Italy',
     date: '2 weeks ago',
-    companyLogo: '/assets/images/logos/slack.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/slack.svg',
     companyName: 'Slack',
   },
   {
@@ -143,7 +143,7 @@ export const jobs = [
     type: 'Full time',
     location: 'Rome, Italy',
     date: 'Just now',
-    companyLogo: '/assets/images/logos/google-ad-manager.svg',
+    companyLogo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     companyName: 'Google Ads',
   },
 ];
@@ -175,47 +175,47 @@ export const advantages = [
 export const companies = [
   {
     name: 'Airbnb',
-    logo: '/assets/images/logos/airbnb.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
   },
   {
     name: 'Coinbase',
-    logo: '/assets/images/logos/coinbase.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
   },
   {
     name: 'Dribbble',
-    logo: '/assets/images/logos/dribbble.svg',
+    logo: 'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
   },
 ];
 
 export const promo = [
   {
-    src: '/assets/images/photos/coworking/place1.jpg',
-    srcSet: '/assets/images/photos/coworking/place1@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1@2x.jpg 2x',
     alt: '...',
   },
   {
-    src: '/assets/images/photos/coworking/place2.jpg',
-    srcSet: '/assets/images/photos/coworking/place2@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2@2x.jpg 2x',
     alt: '...',
   },
   {
-    src: '/assets/images/photos/coworking/place3.jpg',
-    srcSet: '/assets/images/photos/coworking/place3@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
     alt: '...',
   },
   {
-    src: '/assets/images/photos/coworking/place1.jpg',
-    srcSet: '/assets/images/photos/coworking/place1@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1@2x.jpg 2x',
     alt: '...',
   },
   {
-    src: '/assets/images/photos/coworking/place2.jpg',
-    srcSet: '/assets/images/photos/coworking/place2@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2@2x.jpg 2x',
     alt: '...',
   },
   {
-    src: '/assets/images/photos/coworking/place3.jpg',
-    srcSet: '/assets/images/photos/coworking/place3@2x.jpg 2x',
+    src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
+    srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
     alt: '...',
   },
 ];
@@ -223,8 +223,8 @@ export const promo = [
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -233,8 +233,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -243,8 +243,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',

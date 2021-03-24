@@ -31,8 +31,8 @@ const Contact = props => {
         leftSide={
           <div>
             <SectionHeader
-              title="Contact Me"
-              subtitle=""
+              title="Contact us"
+              subtitle="Keep track of what's happening with your data, change permissions, and run reports against your data anywhere in the world. Keep track of what's happening with your data, change permissions."
               subtitleProps={{
                 variant: 'body1',
                 color: 'textPrimary',
@@ -44,8 +44,8 @@ const Contact = props => {
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="/assets/images/illustrations/contact-icon-phone.png"
-                    srcSet="/assets/images/illustrations/contact-icon-phone@2x.png 2x"
+                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone.png"
+                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone@2x.png 2x"
                     className={classes.icon}
                   />
                 </ListItemAvatar>
@@ -65,8 +65,8 @@ const Contact = props => {
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="/assets/images/illustrations/contact-icon-mail.png"
-                    srcSet="/assets/images/illustrations/contact-icon-mail@2x.png 2x"
+                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail.png"
+                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail@2x.png 2x"
                     className={classes.icon}
                   />
                 </ListItemAvatar>
@@ -83,8 +83,36 @@ const Contact = props => {
                   }}
                 />
               </ListItem>
+              <ListItem disableGutters data-aos="fade-up">
+                <ListItemAvatar>
+                  <Avatar
+                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin.png"
+                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin@2x.png 2x"
+                    className={classes.icon}
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Head Office"
+                  secondary="Via E. Golla 4"
+                  primaryTypographyProps={{
+                    variant: 'subtitle1',
+                    color: 'textSecondary',
+                  }}
+                  secondaryTypographyProps={{
+                    variant: 'subtitle1',
+                    color: 'textPrimary',
+                  }}
+                />
+              </ListItem>
             </List>
           </div>
+        }
+        rightSide={
+          <Map
+            center={[45.464211, 9.011383]}
+            pins={data}
+            className={classes.map}
+          />
         }
       />
     </div>

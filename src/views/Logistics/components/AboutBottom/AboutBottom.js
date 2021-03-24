@@ -34,8 +34,8 @@ const AboutBottom = props => {
           md={6}
         >
           <Image
-            src="/assets/images/photos/logistics/about-cover.png"
-            srcSet="/assets/images/photos/logistics/about-cover@2x.png 2x"
+            src="https://assets.maccarianagency.com/the-front/photos/logistics/about-cover.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/logistics/about-cover@2x.png 2x"
             className={classes.image}
           />
         </Grid>

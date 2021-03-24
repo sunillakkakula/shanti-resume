@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'flex-end',
     background:
-      'url(/assets/images/illustrations/patterns-bg.svg) no-repeat left bottom',
+      'url(https://assets.maccarianagency.com/the-front/illustrations/patterns-bg.svg) no-repeat left bottom',
     backgroundSize: 'contain',
   },
   image: {
@@ -96,7 +96,7 @@ const Trucking = props => {
         rightSide={
           <div className={classes.cover}>
             <Image
-              src="/assets/images/illustrations/macbook-dashboard.png"
+              src="https://assets.maccarianagency.com/the-front/illustrations/macbook-dashboard.png"
               className={classes.image}
               lazy={false}
             />

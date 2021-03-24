@@ -33,7 +33,7 @@ const AboutTop = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/assets/images/illustrations/easy-corner.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/easy-corner.svg"
             alt="Find a Job"
             className={classes.image}
           />

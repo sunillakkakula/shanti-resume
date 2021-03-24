@@ -53,7 +53,7 @@ const About = props => {
             <Grid container justify="flex-end">
               <Image
                 className={classes.playIcon}
-                src="/assets/images/illustrations/play-icon.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/play-icon.svg"
                 alt="Play Video"
               />
             </Grid>
@@ -62,7 +62,7 @@ const About = props => {
             <Grid item xs={12}>
               <Grid container justify="center">
                 <Image
-                  src="/assets/images/illustrations/design-team.svg"
+                  src="https://assets.maccarianagency.com/the-front/illustrations/design-team.svg"
                   alt="Play Video"
                 />
               </Grid>

@@ -75,8 +75,8 @@ const Storage = props => {
           {isMd ? (
             <Grid item xs={12} md={6}>
               <Image
-                src="/assets/images/illustrations/review-list.png"
-                srcSet="/assets/images/illustrations/review-list@2x.png 2x"
+                src="https://assets.maccarianagency.com/the-front/illustrations/review-list.png"
+                srcSet="https://assets.maccarianagency.com/the-front/illustrations/review-list@2x.png 2x"
               />
             </Grid>
           ) : null}

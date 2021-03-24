@@ -50,7 +50,7 @@ const Form = props => {
   return (
     <div className={clsx(classes.root, className)} {...rest}>
       <div className={classes.cover}>
-        <Image src="/assets/images/illustrations/want-to-work.svg" />
+        <Image src="https://assets.maccarianagency.com/the-front/illustrations/want-to-work.svg" />
       </div>
       <SectionHeader
         title="Email newsletter"

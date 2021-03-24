@@ -9,7 +9,7 @@ const Hero = props => {
 
   return (
     <div className={className} {...rest}>
-      <HeroSimpleBackground backgroundImage="/assets/images/shapes/banner-bg.svg">
+      <HeroSimpleBackground backgroundImage="https://assets.maccarianagency.com/the-front/shapes/banner-bg.svg">
         <Section narrow>
           <SectionHeader
             title={

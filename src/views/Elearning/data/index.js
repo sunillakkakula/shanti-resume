@@ -85,8 +85,8 @@ export const courseCategories = [
 export const popularCourses = [
   {
     image: {
-      src: '/assets/images/photos/coworking/place1.jpg',
-      srcSet: '/assets/images/photos/coworking/place1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place1@2x.jpg 2x',
     },
     title: 'UX & Web Design',
     address: 'Michael Corse',
@@ -94,43 +94,43 @@ export const popularCourses = [
     reviews: [
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/veronica-adams.jpg',
-          srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
         },
         authorName: 'Veronica Adams',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/akachi-luccini.jpg',
-          srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
         },
         authorName: 'Akachi Luccini',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/jack-smith.jpg',
-          srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
         },
         authorName: 'Jack Smith',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/kate-segelson.jpg',
-          srcSet: '/assets/images/photos/people/kate-segelson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
         },
         authorName: 'Kate Segelson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/alex-johnson.jpg',
-          srcSet: '/assets/images/photos/people/alex-johnson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
         },
         authorName: 'Alex Johnson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/valeria-kogan.jpg',
-          srcSet: '/assets/images/photos/people/valeria-kogan@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
         },
         authorName: 'Valeria Kogan',
       },
@@ -140,8 +140,8 @@ export const popularCourses = [
   },
   {
     image: {
-      src: '/assets/images/photos/coworking/place2.jpg',
-      srcSet: '/assets/images/photos/coworking/place2@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place2@2x.jpg 2x',
     },
     title: 'Principles of Software Engineering',
     address: 'Jhon Smith',
@@ -149,43 +149,43 @@ export const popularCourses = [
     reviews: [
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/veronica-adams.jpg',
-          srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
         },
         authorName: 'Veronica Adams',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/akachi-luccini.jpg',
-          srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
         },
         authorName: 'Akachi Luccini',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/jack-smith.jpg',
-          srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
         },
         authorName: 'Jack Smith',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/kate-segelson.jpg',
-          srcSet: '/assets/images/photos/people/kate-segelson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
         },
         authorName: 'Kate Segelson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/alex-johnson.jpg',
-          srcSet: '/assets/images/photos/people/alex-johnson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
         },
         authorName: 'Alex Johnson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/valeria-kogan.jpg',
-          srcSet: '/assets/images/photos/people/valeria-kogan@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
         },
         authorName: 'Valeria Kogan',
       },
@@ -195,8 +195,8 @@ export const popularCourses = [
   },
   {
     image: {
-      src: '/assets/images/photos/coworking/place3.jpg',
-      srcSet: '/assets/images/photos/coworking/place3@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
     },
     title: 'Graphic Design for Beginners',
     address: 'Nicol Adams',
@@ -204,43 +204,43 @@ export const popularCourses = [
     reviews: [
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/veronica-adams.jpg',
-          srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
         },
         authorName: 'Veronica Adams',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/akachi-luccini.jpg',
-          srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
         },
         authorName: 'Akachi Luccini',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/jack-smith.jpg',
-          srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
         },
         authorName: 'Jack Smith',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/kate-segelson.jpg',
-          srcSet: '/assets/images/photos/people/kate-segelson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
         },
         authorName: 'Kate Segelson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/alex-johnson.jpg',
-          srcSet: '/assets/images/photos/people/alex-johnson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
         },
         authorName: 'Alex Johnson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/valeria-kogan.jpg',
-          srcSet: '/assets/images/photos/people/valeria-kogan@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
         },
         authorName: 'Valeria Kogan',
       },
@@ -250,8 +250,8 @@ export const popularCourses = [
   },
   {
     image: {
-      src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-      srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
     title: 'Marketing VS Sales',
     address: 'Joshua Karamaki',
@@ -259,43 +259,43 @@ export const popularCourses = [
     reviews: [
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/veronica-adams.jpg',
-          srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
         },
         authorName: 'Veronica Adams',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/akachi-luccini.jpg',
-          srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
         },
         authorName: 'Akachi Luccini',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/jack-smith.jpg',
-          srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
         },
         authorName: 'Jack Smith',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/kate-segelson.jpg',
-          srcSet: '/assets/images/photos/people/kate-segelson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
         },
         authorName: 'Kate Segelson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/alex-johnson.jpg',
-          srcSet: '/assets/images/photos/people/alex-johnson@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
         },
         authorName: 'Alex Johnson',
       },
       {
         authorPhoto: {
-          src: '/assets/images/photos/people/valeria-kogan.jpg',
-          srcSet: '/assets/images/photos/people/valeria-kogan@2x.jpg 2x',
+          src: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
+          srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
         },
         authorName: 'Valeria Kogan',
       },
@@ -308,8 +308,8 @@ export const popularCourses = [
 export const reviews = [
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/veronica-adams.jpg',
-      srcSet: '/assets/images/photos/people/veronica-adams@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -318,8 +318,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/akachi-luccini.jpg',
-      srcSet: '/assets/images/photos/people/akachi-luccini@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -328,8 +328,8 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: '/assets/images/photos/people/jack-smith.jpg',
-      srcSet: '/assets/images/photos/people/jack-smith@2x.jpg 2x',
+      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',

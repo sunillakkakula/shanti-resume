@@ -70,8 +70,8 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/assets/images/photos/ecommerce/hero-cover.png"
-            srcSet="/assets/images/photos/ecommerce/hero-cover@2x.png 2x"
+            src="https://assets.maccarianagency.com/the-front/photos/ecommerce/hero-cover.png"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/hero-cover@2x.png 2x"
             alt="Headphones"
             className={classes.image}
           />

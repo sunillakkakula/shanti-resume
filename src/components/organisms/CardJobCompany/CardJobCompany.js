@@ -61,13 +61,13 @@ const CardJobCompany = props => {
       {...rest}
     >
       <Grid container spacing={1}>
-        {/* <Grid item xs={12}>
+        <Grid item xs={12}>
           <Avatar
             src={companyLogo}
             alt={companyName}
             className={classes.companyAvatar}
           />
-        </Grid> */}
+        </Grid>
         <Grid item xs={12}>
           <Typography variant="h6" className={classes.companyName}>
             {companyName}
@@ -85,11 +85,7 @@ const CardJobCompany = props => {
           </Typography>
         </Grid>
         <Grid item xs={12}>
-          {/* <LearnMoreLink title={jobsCount} variant="subtitle1" /> */}
-
-          <Typography component="p" variant="body2" color="textPrimary">
-            {jobsCount}
-          </Typography>
+          <LearnMoreLink title={jobsCount} variant="subtitle1" />
         </Grid>
         <Grid item xs={12}>
           <Typography component="p" variant="body2" color="textSecondary">

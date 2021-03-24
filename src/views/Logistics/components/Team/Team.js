@@ -59,7 +59,7 @@ const Team = props => {
                   <ListItem disableGutters>
                     <ListItemAvatar>
                       <Avatar
-                        src="/assets/images/illustrations/check-icon-yellow.svg"
+                        src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
                         className={classes.checkBox}
                       />
                     </ListItemAvatar>
@@ -82,8 +82,8 @@ const Team = props => {
           data-aos="fade-up"
         >
           <Image
-            src="/assets/images/illustrations/team.png"
-            srcSet="/assets/images/illustrations/team@2x.png 2x"
+            src="https://assets.maccarianagency.com/the-front/illustrations/team.png"
+            srcSet="https://assets.maccarianagency.com/the-front/illustrations/team@2x.png 2x"
             alt="team"
             className={classes.image}
           />

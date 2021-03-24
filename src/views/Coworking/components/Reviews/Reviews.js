@@ -27,7 +27,7 @@ const Reviews = props => {
       <SectionHeader
         overline={
           <Image
-            src="/assets/images/illustrations/rated-by-our-customer.png"
+            src="https://assets.maccarianagency.com/the-front/illustrations/rated-by-our-customer.png"
             alt="rating"
             className={classes.sectionHeadlineStars}
             width="auto"

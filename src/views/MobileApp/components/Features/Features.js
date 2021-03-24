@@ -62,7 +62,7 @@ const Features = props => {
               data-aos="fade-up"
             >
               <Image
-                src="/assets/images/illustrations/businesswoman.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/businesswoman.svg"
                 alt="..."
                 className={classes.coverImage}
                 lazy={false}
@@ -157,7 +157,7 @@ const Features = props => {
               data-aos="fade-up"
             >
               <Image
-                src="/assets/images/illustrations/connected-world.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/connected-world.svg"
                 alt="..."
                 className={classes.coverImage}
                 lazy={false}

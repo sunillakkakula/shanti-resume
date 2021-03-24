@@ -35,18 +35,18 @@ const Process = props => {
         >
           <OverlapedImages
             image1={{
-              src: '/assets/images/photos/expo-gallery/gallery1.jpg',
-              srcSet: '/assets/images/photos/expo-gallery/gallery1@2x.jpg 2x',
+              src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+              srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
               alt: '...',
             }}
             image2={{
-              src: '/assets/images/photos/expo-gallery/gallery2.jpg',
-              srcSet: '/assets/images/photos/expo-gallery/gallery2@2x.jpg 2x',
+              src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+              srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
               alt: '...',
             }}
             image3={{
-              src: '/assets/images/photos/expo-gallery/gallery3.jpg',
-              srcSet: '/assets/images/photos/expo-gallery/gallery3@2x.jpg 2x',
+              src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+              srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
               alt: '...',
             }}
           />

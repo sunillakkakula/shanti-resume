@@ -59,7 +59,7 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="/assets/images/illustrations/mind-map.svg"
+            src="https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
             alt="TheFront Company"
             className={classes.image}
           />

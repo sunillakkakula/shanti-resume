@@ -26,7 +26,7 @@ const Companies = props => {
       <SectionHeader
         title={
           <>
-            Companies {isMd ? null : <br />} I worked &nbsp;
+            Companies {isMd ? null : <br />} you love &nbsp;
             <TypedText
               component="span"
               variant="h4"
@@ -34,10 +34,10 @@ const Companies = props => {
               className={classes.typed}
               typedProps={{
                 strings: [
-                  'Legg Mason, MD	, US',
+                  'Computer Sciences Corporation, MD, US.',
+                  'Legg Mason, MD , US',
                   'Northrop Grumman, MD, US',
                   'Medco Health Solutions, NJ, US',
-                  'Computer Sciences Corporation, MD, US',
                 ],
                 typeSpeed: 100,
                 loop: true,
@@ -45,12 +45,7 @@ const Companies = props => {
             />
           </>
         }
-        subtitle={
-          <>
-            {/* Find your second home.
-            <LearnMoreLink title="&nbsp;Set career interests" variant="h6" /> */}
-          </>
-        }
+        subtitle={<></>}
         align="left"
       />
       <Grid container spacing={isMd ? 4 : 2}>

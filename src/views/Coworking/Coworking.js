@@ -8,8 +8,7 @@ import {
   Divider,
 } from '@material-ui/core';
 import ForumIcon from '@material-ui/icons/Forum';
-import { ContactForm } from 'common';
-import { Section, SectionAlternate } from 'components/organisms';
+import { Section, SectionAlternate, ContactForm } from 'components/organisms';
 import {
   Advantages,
   Application,

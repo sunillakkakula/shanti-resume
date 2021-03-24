@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     position: 'relative',
     minHeight: 400,
     maxHeight: 600,
-    background: `url(/assets/images/photos/rental/hero-bg-image.jpg) no-repeat center ${colors.blueGrey[200]}`,
+    background: `url(https://assets.maccarianagency.com/the-front/photos/rental/hero-bg-image.jpg) no-repeat center ${colors.blueGrey[200]}`,
     backgroundSize: 'cover',
   },
   section: {

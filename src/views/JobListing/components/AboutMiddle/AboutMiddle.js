@@ -62,7 +62,7 @@ const AboutMiddle = props => {
         />
       </Section>
       <Image
-        src="/assets/images/illustrations/people-in-sofa.svg"
+        src="https://assets.maccarianagency.com/the-front/illustrations/people-in-sofa.svg"
         className={classes.image}
         data-aos="fade-up"
       />

@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Grid } from '@material-ui/core';
-import { ContactForm } from 'common';
 import { SectionHeader } from 'components/molecules';
-import { CardBase } from 'components/organisms';
+import { CardBase, ContactForm } from 'components/organisms';
 
 const Contact = props => {
   const { className, ...rest } = props;

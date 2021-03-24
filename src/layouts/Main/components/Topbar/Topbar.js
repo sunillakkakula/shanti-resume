@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
@@ -12,15 +12,10 @@ import {
   Typography,
   IconButton,
   Button,
-  FormControlLabel,
-  Switch,
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
-
-import { Image } from 'components/atoms';
-import { isLightMode, sessionStorage } from 'utils';
-import { Label } from '@material-ui/icons';
+import { Image, DarkModeToggler } from 'components/atoms';
 
 const useStyles = makeStyles(theme => ({
   flexGrow: {
@@ -42,7 +37,6 @@ const useStyles = makeStyles(theme => ({
     },
   },
   navLink: {
-    fontWeight: 300,
     '&:hover': {
       color: theme.palette.primary.dark,
     },
@@ -80,6 +74,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(2),
   },
   iconButton: {
+    marginLeft: theme.spacing(2),
     padding: 0,
     '&:hover': {
       background: 'transparent',
@@ -119,18 +114,11 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Topbar = props => {
-  const { className, onSidebarOpen, ...rest } = props;
-
+const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...rest }) => {
   const classes = useStyles();
 
   const [anchorEl, setAnchorEl] = useState(null);
   const [openedPopoverId, setOpenedPopoverId] = useState(null);
-  // const [isLightModeTheme, setLightModeTheme] = useState(false);
-
-  // useEffect(() => {
-  //   // setLightModeTheme(isLightMode());
-  // }, []);
 
   const handleClick = (event, popoverId) => {
     setAnchorEl(event.target);
@@ -142,65 +130,65 @@ const Topbar = props => {
     setOpenedPopoverId(null);
   };
 
-  // const landings = pages.landings;
-  // const supportedPages = pages.pages;
-  // const account = pages.account;
+  const landings = pages.landings;
+  const supportedPages = pages.pages;
+  const account = pages.account;
 
-  // const MenuGroup = props => {
-  //   const { item } = props;
-  //   return (
-  //     <List disablePadding>
-  //       <ListItem disableGutters>
-  //         <Typography
-  //           variant="body2"
-  //           color="primary"
-  //           className={classes.menuGroupTitle}
-  //         >
-  //           {item.groupTitle}
-  //         </Typography>
-  //       </ListItem>
-  //       {item.pages.map((page, i) => (
-  //         <ListItem disableGutters key={i} className={classes.menuGroupItem}>
-  //           <Typography
-  //             variant="body1"
-  //             component={'a'}
-  //             href={page.href}
-  //             className={clsx(classes.navLink, 'submenu-item')}
-  //             color="textSecondary"
-  //             onClick={handleClose}
-  //           >
-  //             {page.title}
-  //           </Typography>
-  //         </ListItem>
-  //       ))}
-  //     </List>
-  //   );
-  // };
+  const MenuGroup = props => {
+    const { item } = props;
+    return (
+      <List disablePadding>
+        <ListItem disableGutters>
+          <Typography
+            variant="body2"
+            color="primary"
+            className={classes.menuGroupTitle}
+          >
+            {item.groupTitle}
+          </Typography>
+        </ListItem>
+        {item.pages.map((page, i) => (
+          <ListItem disableGutters key={i} className={classes.menuGroupItem}>
+            <Typography
+              variant="body1"
+              component={'a'}
+              href={page.href}
+              className={clsx(classes.navLink, 'submenu-item')}
+              color="textSecondary"
+              onClick={handleClose}
+            >
+              {page.title}
+            </Typography>
+          </ListItem>
+        ))}
+      </List>
+    );
+  };
 
-  // const LandingPages = () => {
-  //   const { services, apps, web } = landings.children;
-  //   return (
-  //     <div className={classes.menu}>
-  //       <div className={classes.menuItem}>
-  //         <MenuGroup item={services} />
-  //         <MenuGroup item={apps} />
-  //       </div>
-  //       <div className={classes.menuItem}>
-  //         <MenuGroup item={web} />
-  //       </div>
-  //     </div>
-  //   );
-  // };
+  const LandingPages = () => {
+    const { services, apps, web } = landings.children;
+    return (
+      <div className={classes.menu}>
+        <div className={classes.menuItem}>
+          <MenuGroup item={services} />
+          <MenuGroup item={apps} />
+        </div>
+        <div className={classes.menuItem}>
+          <MenuGroup item={web} />
+        </div>
+      </div>
+    );
+  };
 
-  // const SupportedPages = () => {
-  //   const {
-  //     career,
-  //     helpCenter,
-  //     company,
-  //     contact,
-  //     blog,
-  //     portfolio,
-  //   } = supportedPages.children;
+  const SupportedPages = () => {
+    const {
+      career,
+      helpCenter,
+      company,
+      contact,
+      blog,
+      portfolio,
+    } = supportedPages.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
@@ -250,44 +238,21 @@ const Topbar = props => {
     }
   };
 
-  const toggleMode = () => {
-    const currentMode = sessionStorage.getItem('themeMode') || '';
-    if (currentMode === 'dark') {
-      sessionStorage.setItem('themeMode', 'light');
-    } else {
-      sessionStorage.setItem('themeMode', 'dark');
-    }
-
-    window.location.reload();
-  };
-
   return (
     <Toolbar disableGutters className={classes.toolbar} {...rest}>
-      <SectionHeader
-        title="Shanti"
-        subtitle="hanving 7 Years exp .."
-        subtitleProps={{
-          variant: 'body1',
-          color: 'textPrimary',
-        }}
-        fadeUp
-      />
-        }
-      
-      <div className={classes.logoContainer}></div>
+      <div className={classes.logoContainer}>
+        <a href="/" title="thefront">
+          <Image
+            className={classes.logoImage}
+            src={themeMode === 'light' ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg' : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'}
+            alt="thefront"
+            lazy={false}
+          />
+        </a>
+      </div>
       <div className={classes.flexGrow} />
-      <FormControlLabel
-        control={<Switch color="primary" checked={isLightModeTheme} />}
-        label={
-          <Typography variant="body1" color="textSecondary">
-            Light
-          </Typography>
-        }
-        labelPlacement="end"
-        onChange={() => toggleMode()}
-      />
       <Hidden smDown>
-        <List className={classes.navigationContainer}>
+        <List disablePadding className={classes.navigationContainer}>
           {[landings, supportedPages, account].map((page, i) => (
             <div key={page.id}>
               <ListItem
@@ -300,7 +265,7 @@ const Topbar = props => {
               >
                 <Typography
                   variant="body1"
-                  color="textSecondary"
+                  color="textPrimary"
                   className={clsx(classes.listItemText, 'menu-item')}
                 >
                   {page.title}
@@ -334,25 +299,20 @@ const Topbar = props => {
               </Popover>
             </div>
           ))}
-          <ListItem
-            className={clsx(classes.listItem, 'menu-item--no-dropdown')}
-          >
-            <Typography
-              variant="body1"
-              color="textSecondary"
-              className={classes.listItemText}
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              variant="outlined"
               component="a"
-              target="blank"
-              href="https://thefront-styleguide.maccarianagency.com/"
+              href="/documentation"
             >
               Documentation
-            </Typography>
+            </Button>
           </ListItem>
-          <ListItem
-            className={clsx(classes.listItem, 'menu-item--no-dropdown')}
-          >
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <Button
-              size="large"
               variant="contained"
               color="primary"
               component="a"
@@ -366,6 +326,7 @@ const Topbar = props => {
         </List>
       </Hidden>
       <Hidden mdUp>
+        <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
         <IconButton
           className={classes.iconButton}
           onClick={onSidebarOpen}
@@ -382,6 +343,8 @@ Topbar.propTypes = {
   className: PropTypes.string,
   onSidebarOpen: PropTypes.func,
   pages: PropTypes.object.isRequired,
+  themeToggler: PropTypes.func.isRequired,
+  themeMode: PropTypes.string.isRequired,
 };
 
 export default Topbar;

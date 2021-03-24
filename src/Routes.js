@@ -4,13 +4,13 @@
  * You may delete this file and its occurrences from the project filesystem if you are using GatsbyJS or NextJS version
  */
 import React from 'react';
-import { Switch, Redirect } from 'react-router-dom';
-
-import { RouteWithLayout } from './common';
-import { Main as MainLayout, Minimal as MinimalLayout } from './layouts';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import WithLayout from 'WithLayout';
+import { Main as MainLayout, Minimal as MinimalLayout, DocsLayout } from './layouts';
 
 import {
   Home as HomeView,
+  IndexView,
   Agency as AgencyView,
   CareerListing as CareerListingView,
   CareerListingMinimal as CareerListingMinimalView,
@@ -53,6 +53,7 @@ import {
   SignupSimple as SignupSimpleView,
   SignupCover as SignupCoverView,
   Account as AccountView,
+  Documentation as DocumentationView,
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
 } from './views';
@@ -60,278 +61,524 @@ import {
 const Routes = () => {
   return (
     <Switch>
-      <Redirect exact from="/" to="/home" />
-      <RouteWithLayout
-        component={HomeView}
+      <Route
         exact
-        layout={MainLayout}
+        path="/"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={IndexView}
+            layout={MainLayout}
+          />
+        )}
+      />
+      <Route
+        exact
         path="/home"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={HomeView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CareerListingView}
+      <Route
         exact
-        layout={MainLayout}
         path="/career-listing"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CareerListingView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CareerListingMinimalView}
+      <Route
         exact
-        layout={MainLayout}
         path="/career-listing-minimal"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CareerListingMinimalView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CareerOpeningView}
+      <Route
         exact
-        layout={MainLayout}
         path="/career-opening"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CareerOpeningView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ContactPageView}
+      <Route
         exact
-        layout={MainLayout}
         path="/contact-page"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ContactPageView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CoworkingView}
+      <Route
         exact
-        layout={MainLayout}
         path="/coworking"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CoworkingView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ElearningView}
+      <Route
         exact
-        layout={MainLayout}
         path="/e-learning"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ElearningView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={EnterpriseView}
+      <Route
         exact
-        layout={MainLayout}
         path="/enterprise"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={EnterpriseView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ServiceView}
+      <Route
         exact
-        layout={MainLayout}
         path="/service"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ServiceView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={WebBasicView}
+      <Route
         exact
-        layout={MainLayout}
         path="/web-basic"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={WebBasicView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={DesktopAppView}
+      <Route
         exact
-        layout={MainLayout}
         path="/desktop-app"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={DesktopAppView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ExpoView}
+      <Route
         exact
-        layout={MainLayout}
         path="/expo"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ExpoView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={AgencyView}
+      <Route
         exact
-        layout={MainLayout}
         path="/agency"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={AgencyView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={StartupView}
+      <Route
         exact
-        layout={MainLayout}
         path="/startup"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={StartupView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={DesignCompanyView}
+      <Route
         exact
-        layout={MainLayout}
         path="/design-company"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={DesignCompanyView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={MobileAppView}
+      <Route
         exact
-        layout={MainLayout}
         path="/mobile-app"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={MobileAppView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={JobListingView}
+      <Route
         exact
-        layout={MainLayout}
         path="/job-listing"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={JobListingView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={RentalView}
+      <Route
         exact
-        layout={MainLayout}
         path="/rental"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={RentalView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CloudHostingView}
+      <Route
         exact
-        layout={MainLayout}
         path="/cloud-hosting"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CloudHostingView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={LogisticsView}
+      <Route
         exact
-        layout={MainLayout}
         path="/logistics"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={LogisticsView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={EcommerceView}
+      <Route
         exact
-        layout={MainLayout}
         path="/e-commerce"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={EcommerceView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PricingView}
+      <Route
         exact
-        layout={MainLayout}
         path="/pricing"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PricingView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={AboutView}
+      <Route
         exact
-        layout={MainLayout}
         path="/about"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={AboutView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={HelpCenterView}
+      <Route
         exact
-        layout={MainLayout}
         path="/help-center"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={HelpCenterView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={HelpCenterArticleView}
+      <Route
         exact
-        layout={MainLayout}
         path="/help-center-article"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={HelpCenterArticleView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PortfolioPageView}
+      <Route
         exact
-        layout={MainLayout}
         path="/portfolio-page"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PortfolioPageView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PortfolioMasonryView}
+      <Route
         exact
-        layout={MainLayout}
         path="/portfolio-masonry"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PortfolioMasonryView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PortfolioGridView}
+      <Route
         exact
-        layout={MainLayout}
         path="/portfolio-grid"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PortfolioGridView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={CompanyTermsView}
+      <Route
         exact
-        layout={MainLayout}
         path="/company-terms"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CompanyTermsView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ContactPageSidebarMapView}
+      <Route
         exact
-        layout={MainLayout}
         path="/contact-sidebar-map"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ContactPageSidebarMapView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={ContactPageCoverView}
+      <Route
         exact
-        layout={MainLayout}
         path="/contact-page-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={ContactPageCoverView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={AboutSideCoverView}
+      <Route
         exact
-        layout={MainLayout}
         path="/about-side-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={AboutSideCoverView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={BlogSearchView}
+      <Route
         exact
-        layout={MainLayout}
         path="/blog-search"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={BlogSearchView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={BlogNewsroomView}
+      <Route
         exact
-        layout={MainLayout}
         path="/blog-newsroom"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={BlogNewsroomView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={BlogArticleView}
+      <Route
         exact
-        layout={MainLayout}
         path="/blog-article"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={BlogArticleView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={BlogReachViewView}
+      <Route
         exact
-        layout={MainLayout}
         path="/blog-reach-view"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={BlogReachViewView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PasswordResetCoverView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/password-reset-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PasswordResetCoverView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={PasswordResetSimpleView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/password-reset-simple"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={PasswordResetSimpleView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={SigninSimpleView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/signin-simple"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={SigninSimpleView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={SigninCoverView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/signin-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={SigninCoverView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={SignupSimpleView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/signup-simple"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={SignupSimpleView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={SignupCoverView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/signup-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={SignupCoverView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={AccountView}
+      <Route
         exact
-        layout={MainLayout}
         path="/account"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={AccountView}
+            layout={MainLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={NotFoundView}
+      <Route
         exact
-        layout={MinimalLayout}
+        path="/documentation"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={DocumentationView}
+            layout={DocsLayout}
+          />
+        )}
+      />
+      <Route
+        exact
         path="/not-found"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={NotFoundView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <RouteWithLayout
-        component={NotFoundCoverView}
+      <Route
         exact
-        layout={MinimalLayout}
         path="/not-found-cover"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={NotFoundCoverView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <Redirect to="/not-found-cover" status="404" />
+      <Redirect to="/not-found-cover" />
     </Switch>
   );
 };

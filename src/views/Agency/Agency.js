@@ -89,7 +89,7 @@ const Agency = () => {
         />
       </div>
       <Parallax
-        backgroundImage="/assets/images/photos/blog/cover1.jpg"
+        backgroundImage="https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg"
         id="agency-madcap"
       >
         <div className={clsx(classes.fullHeight, classes.madcapSection)}>
@@ -122,7 +122,7 @@ const Agency = () => {
         />
       </div>
       <Parallax
-        backgroundImage="/assets/images/photos/blog/cover2.jpg"
+        backgroundImage="https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg"
         id="agency-adidas"
       >
         <div className={clsx(classes.fullHeight, classes.adidasSection)}>
@@ -141,7 +141,7 @@ const Agency = () => {
         </div>
       </Parallax>
       <Parallax
-        backgroundImage="/assets/images/photos/blog/cover4.jpg"
+        backgroundImage="https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg"
         id="agency-larq"
       >
         <div className={clsx(classes.fullHeight, classes.larqSection)}>
@@ -160,7 +160,7 @@ const Agency = () => {
         </div>
       </Parallax>
       <Parallax
-        backgroundImage="/assets/images/photos/blog/cover3.jpg"
+        backgroundImage="https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg"
         id="agency-nike"
       >
         <div className={clsx(classes.fullHeight, classes.nikeSection)}>

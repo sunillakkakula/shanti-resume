@@ -36,7 +36,7 @@ const schema = {
       minimum: 8,
     },
   },
- };
+};
 
 const Form = () => {
   const classes = useStyles();

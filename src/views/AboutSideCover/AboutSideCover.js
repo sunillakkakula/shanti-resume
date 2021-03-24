@@ -115,7 +115,7 @@ const AboutSideCover = () => {
                   titleVariant="h3"
                 />
                 <Image
-                  src="/assets/images/illustrations/city-driver.svg"
+                  src="https://assets.maccarianagency.com/the-front/illustrations/city-driver.svg"
                   alt="Contact"
                   className={classes.image}
                 />

@@ -58,7 +58,7 @@ const QuickSearch = props => {
               md={6}
             >
               <Image
-                src="/assets/images/illustrations/relax-working.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/relax-working.svg"
                 className={classes.image}
               />
             </Grid>
@@ -109,7 +109,7 @@ const QuickSearch = props => {
               md={6}
             >
               <Image
-                src="/assets/images/illustrations/relax-working.svg"
+                src="https://assets.maccarianagency.com/the-front/illustrations/relax-working.svg"
                 className={classes.image}
               />
             </Grid>

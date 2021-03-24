@@ -86,8 +86,8 @@ const AskExpert = props => {
         {isMd ? (
           <Grid item xs={12} md={6} data-aos="fade-up">
             <Image
-              src="/assets/images/photos/rental/expert-cover.png"
-              srcSet="/assets/images/photos/rental/expert-cover@2x.png 2x"
+              src="https://assets.maccarianagency.com/the-front/photos/rental/expert-cover.png"
+              srcSet="https://assets.maccarianagency.com/the-front/photos/rental/expert-cover@2x.png 2x"
               alt="..."
             />
           </Grid>

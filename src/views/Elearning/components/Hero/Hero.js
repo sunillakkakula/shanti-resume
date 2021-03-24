@@ -46,8 +46,8 @@ const Hero = props => {
         }
         rightSide={
           <Image
-            src="/assets/images/photos/elearning/elearning.jpg"
-            srcSet="/assets/images/photos/elearning/elearning@2x.jpg 2x"
+            src="https://assets.maccarianagency.com/the-front/photos/elearning/elearning.jpg"
+            srcSet="https://assets.maccarianagency.com/the-front/photos/elearning/elearning@2x.jpg 2x"
             alt="..."
             className={classes.image}
             lazyProps={{

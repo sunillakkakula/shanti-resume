@@ -86,7 +86,7 @@ const ContactPageCover = () => {
         <div className={classes.wrapper}>
           <div className={classes.cover}>
             <Image
-              src="/assets/images/photos/account/cover-4.jpg"
+              src="https://assets.maccarianagency.com/the-front/photos/account/cover-4.jpg"
               alt="Contact"
               className={classes.image}
               lazyProps={{ width: '100%' }}

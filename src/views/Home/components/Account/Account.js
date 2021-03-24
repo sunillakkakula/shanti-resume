@@ -28,8 +28,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Account = props => {
-  const { data, className, ...rest } = props;
+const Account = ({ themeMode = 'light', data, className, ...rest }) => {
   const classes = useStyles();
   return (
     <div className={className} {...rest}>
@@ -44,7 +43,10 @@ const Account = props => {
             <a href={item.href} title={item.title}>
               <CardBase withShadow liftUp className={classes.cardBase}>
                 <>
-                <Image src={item.cover} alt={item.title} />
+                <Image
+                  src={themeMode === 'light' ? item.cover : item.coverDark}
+                  alt={item.title}
+                />
                 <div className={classes.linkContainer}>
                   <Typography
                     variant="subtitle1"
@@ -74,6 +76,10 @@ Account.propTypes = {
    * data to be rendered
    */
   data: PropTypes.array.isRequired,
+  /**
+   * Current theme mode
+   */
+  themeMode: PropTypes.string,
 };
 
 export default Account;

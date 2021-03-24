@@ -120,7 +120,7 @@ const Main = props => {
               <ListItem disableGutters key={index} data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="/assets/images/illustrations/check-icon-yellow.svg"
+                    src="https://assets.maccarianagency.com/the-front/illustrations/check-icon-yellow.svg"
                     className={classes.checkBox}
                   />
                 </ListItemAvatar>
