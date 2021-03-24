@@ -17,9 +17,7 @@
     "styleguide": "cross-env FAST_REFRESH=false styleguidist server",
     "styleguide:build": "styleguidist build",
     "prettier": "prettier --write '**/*.{js,css,html}'",
-    "assets": "rimraf ./public/assets/images && cp-cli ./node_modules/thefront-assets/images ./public/assets/images",
-    "leaflet-assets": "rimraf ./src/assets/images/leaflet-assets && cp-cli ./node_modules/leaflet/dist/images ./src/assets/images/leaflet-assets",
-    "postinstall": "npm run assets && npm run leaflet-assets",
+    
     "clear-all": "rimraf ./.cache ./.next ./build ./dist ./styleguide ./node_modules ./public/page-data ./public/static ./public/render-page.js ./public/render-page.js.map"
   },
   "eslintConfig": {
