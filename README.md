@@ -8,63 +8,7 @@ A professional React Kit that comes with plenty of ready-to-use Material-UI comp
 - React
 - Material-UI
 - React Scripts
-- NextJS
-- GatsbyJS
-- Typescript
-- Figma & Sketch
 
-## Features
-
-theFront landing page examples can be used out of the box, but since they’re built on flexible components, you can also create new pages all your own with ease. Copy-paste a section here, a component there, switch up a few variables, and you have an entirely new landing!
-
-- More than 45 pages
-- 300+ component reusable compositions
-- 30+ stand-alone components created by following the [Atomic Design Methodology](https://bradfrost.com/blog/post/atomic-web-design/)
-- create-react-app & react-scripts support
-- NextJS and server side rendering support
-- GatsbyJS and server side rendering support
-- Typescript support
-- Dark mode support
-- Image lazy loading support
-- Animated sections on scroll
-- Swiper support
-- Fully responsive on all modern browsers
-- Figma and Sketch design files (available in Standard Plus & Extended licences)
-- Rich documentation with code samples and parameters/options
-- Free customer support
-- Free updates
-
-## Learn more
-
-- [Launch a live demo](https://thefront.maccarianagency.com)
-- [Documentation & Quick Start](https://thefront-styleguide.maccarianagency.com)
-
-## Design Highlights
-
-theFront was designed as a rich system from the start, which is reflected in both the end result and the original design.
-
-- 15 Figma and Sketch files are available
-- Beautiful, modern style flexible enough to suit most brands
-- All images are included with a free-to-use license
-- Icon set provided by Font Awesome Kit
-
-The following are the pages that have Figma and Sketch design implementation:
-
-- [Job Listing](https://thefront.maccarianagency.com/job-listing)
-- [Rental](https://thefront.maccarianagency.com/rental)
-- [E-commerce](https://thefront.maccarianagency.com/e-commerce)
-- [Cloud Hosting](https://thefront.maccarianagency.com/cloud-hosting)
-- [Logistics](https://thefront.maccarianagency.com/logistics)
-- [Portfolio](https://thefront.maccarianagency.com/portfolio-page)
-- [Career Listing](https://thefront.maccarianagency.com/career-listing-minimal)
-- [Career Opening](https://thefront.maccarianagency.com/career-opening)
-- [Help Center](https://thefront.maccarianagency.com/help-center)
-- [Company About](https://thefront.maccarianagency.com/about)
-- [Company Pricing](https://thefront.maccarianagency.com/pricing)
-- [Blog Newsroom](https://thefront.maccarianagency.com/blog-newsroom)
-- [Blog Article](https://thefront.maccarianagency.com/blog-article)
-- [Company Contact](https://thefront.maccarianagency.com/contact-page)
-- [Account Page](https://thefront.maccarianagency.com/account/general)
 
 ## Folder structure
 
@@ -92,18 +36,6 @@ In the root folder there are 4 folders:
 - Install dependencies: `npm install`
 - Start the server: `npm run start`
 - Build on production: `npm run build`
-
-## Quick start with Pre-rendered version NextJS
-
-- Install dependencies: `npm install`
-- Start the server: `npm run nextjs:dev`
-- Build on production: `npm run nextjs:build`
-
-## Quick start with Pre-rendered version GatsbyJS
-
-- Install dependencies: `npm install`
-- Start the server: `npm run gatsbyjs:develop`
-- Build on production: `npm run gatsbyjs:build` (Built files are in `dist` folder)
 
 ## Instalation of images
 
