@@ -12,7 +12,7 @@ Material-UI & ReactJS based Landing Pages Kit made with [Material UI's](https://
 ## Folder structure
 
 In the root folder there are 4 folders:
-- **pages** *The NextJS & GatsbyJS pre-rendered pages are located under this folder. If you are not using NextJS or GatsbyJS you may delete or ignore the `pages` folder*
+- **pages** * If you are not using NextJS or GatsbyJS you may delete or ignore the `pages` folder*
 - **plugins** *The GatsbyJS custom plugins are located under this folder. If you are not using GatsbyJS you may delete or ignore the `plugins` folder*
 - **public** *Here are the public assets, images and `index.html` file. Note that you don't need `index.html` file if you are using NextJS or GatsbyJS versions. Also note, that when running GatsbyJS build scripts the `index.html` file will be overwritten. If you want to recover the file copy the content of `_index.html` and past into `index.html`*
 - **src** *Here is the main business logic of the theme.*
